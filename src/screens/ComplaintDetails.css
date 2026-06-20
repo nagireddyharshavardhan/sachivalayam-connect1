@@ -1,0 +1,35 @@
+.detail-card {
+  background: white;
+  border-radius: var(--radius-card);
+  padding: 20px;
+  box-shadow: var(--shadow-soft);
+}
+
+.border-b { border-bottom: 1px solid #eee; }
+.border-t { border-top: 1px solid #eee; }
+
+.info-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.text-primary { color: var(--color-primary); }
+.text-body { line-height: 1.5; color: var(--color-text-main); }
+
+.evidence-img {
+  width: 100%;
+  border-radius: 8px;
+  max-height: 200px;
+  object-fit: cover;
+  border: 1px solid #eee;
+}
+
+.actions-card {
+  background: white;
+  border-radius: var(--radius-card);
+  padding: 20px;
+  box-shadow: var(--shadow-soft);
+  margin-top: 16px;
+}
